@@ -9,3 +9,4 @@ This repository demonstrates common Git tasks using a visual Git tool.
 Remote update created directly on GitHub for synchronization practice.
 
 Main review note.
+Feature review note.
