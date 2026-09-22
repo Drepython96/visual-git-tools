@@ -1,0 +1,20 @@
+First commit:
+Validate checkout inputs
+
+Files included:
+checkout.py
+
+Summary:
+This commit adds validation that prevents negative prices or quantities from being used in the checkout calculation.
+
+Second commit:
+Document visual Git lab purpose
+
+Files included:
+README.md
+
+Summary:
+This commit adds a short explanation of the repository’s purpose.
+
+Reason for separating the changes:
+The checkout validation and README documentation have different purposes. Separating them makes each change easier to review and explain, and either change can be undone without affecting the other.
