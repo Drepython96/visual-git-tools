@@ -1,0 +1,14 @@
+Line under investigation:
+total = subtotal + tax
+
+Commit ID:
+7a9e904
+
+Author/date shown by GitHub Desktop:
+Deandre Skelton — September 22, 2026 (shown as “just now”)
+
+Commit message:
+Remove unintended handling fee
+
+Diff interpretation:
+This commit changed the total calculation from “total = subtotal + tax + 10” to “total = subtotal + tax.” The extra 10 plausibly explained the unexpected result because it added an unintended $10 charge to every calculated purchase. Removing it restored the expected subtotal-plus-tax calculation.
