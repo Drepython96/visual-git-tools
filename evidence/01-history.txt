@@ -1,0 +1,12 @@
+Repository URL: https://github.com/jilly006/visual-git-tools
+
+Branches:
+main
+visual-tools
+
+Feature commit messages:
+Create checkout.py
+Add sales tax calculation
+
+History graph explanation:
+The initial commit is shared by main and visual-tools because the visual-tools branch was created from main after that commit. The Create checkout.py and Add sales tax calculation commits are unique to visual-tools. HEAD is currently on visual-tools at the newest feature commit, Add sales tax calculation. The visual-tools branch label points to that newest commit.
