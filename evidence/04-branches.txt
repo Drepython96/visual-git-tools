@@ -1,0 +1,22 @@
+Branch before merge:
+The current feature branch was visual-tools. It contained the checkout calculator, investigation commits, review commits, and evidence files that were not originally present on main.
+
+Branch after merge:
+I switched the current branch to main and selected Branch > Merge into current branch. I merged visual-tools into main, so the feature commits became part of main.
+
+Remote update:
+I edited README.md directly on GitHub and committed the change with the message “Add remote synchronization note.” In GitHub Desktop, Fetch origin checked the remote repository for updates, and Pull origin downloaded and integrated the remote README change.
+
+Conflict during synchronization:
+The local and remote versions had both changed the end of README.md. I resolved the conflict manually by retaining the Lab Purpose section and the remote synchronization note, then continued the merge.
+
+GUI actions and Git concepts:
+Current branch — selects the branch currently checked out.
+Publish branch — creates the corresponding branch on the GitHub remote.
+Fetch origin — checks GitHub for remote commits without immediately changing local files.
+Pull origin — downloads and integrates remote commits into the current local branch.
+Merge into current branch — combines another branch’s commits with the checked-out branch.
+Push origin — uploads local commits to the GitHub remote.
+
+Final state:
+The current branch is main. The feature commits and remote README update are present locally, the working tree has no uncommitted changes, and main is synchronized with GitHub.
