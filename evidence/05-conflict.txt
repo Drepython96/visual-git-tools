@@ -1,0 +1,28 @@
+Conflicting lines:
+
+Main branch:
+Main review note.
+
+visual-tools branch:
+Feature review note.
+
+Final resolved README content:
+
+# Lab-6
+
+SWE 325 Lab 6 - Visual Git Tools
+
+## Lab Purpose
+
+This repository demonstrates common Git tasks using a visual Git tool.
+
+Remote update created directly on GitHub for synchronization practice.
+
+Main review note.
+Feature review note.
+
+Merge commit message:
+Merge branch 'visual-tools'
+
+Resolution explanation:
+README.md was edited manually through the conflict-resolution workflow. The conflict markers were removed, both intended review-note lines were retained, and the merge was completed with no unresolved or uncommitted changes.
